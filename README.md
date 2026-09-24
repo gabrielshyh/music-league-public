@@ -7,7 +7,11 @@
 
 **A full-stack social music competition platform featuring custom leagues, theme submissions, anonymous voting, and automated Spotify integration.**
 
-[**🔗 Live Web App: musicleague.jgsms-ai.com**](https://musicleague.jgsms-ai.com/)
+<br>
+
+<a href="https://musicleague.jgsms-ai.com/" target="_blank" rel="noopener noreferrer"><b>🔗 Live Web App: musicleague.jgsms-ai.com</b></a>
+
+<br><br>
 
 ![frontend](https://img.shields.io/badge/frontend-React-blue)
 ![backend](https://img.shields.io/badge/backend-Fastify-black)
@@ -26,7 +30,7 @@ Sharing and discovering music with friends should be competitive and engaging, b
 
 Music League is a modern full-stack web application designed for competitive music sharing. Players join custom leagues, submit tracks matching weekly themes, vote anonymously on peer submissions with allocated point budgets, track real-time leaderboard rankings, and generate automated Spotify playlists with a single click.
 
-Experience the live application at [musicleague.jgsms-ai.com](https://musicleague.jgsms-ai.com/).
+Experience the live application at <a href="https://musicleague.jgsms-ai.com/" target="_blank" rel="noopener noreferrer"><b>musicleague.jgsms-ai.com</b></a>.
 
 ## Highlights
 
