@@ -7,7 +7,7 @@
 
 **A full-stack social music competition platform featuring custom leagues, theme submissions, anonymous voting, and automated Spotify integration.**
 
-![frontend](https://img.shields.io/badge/frontend-React%2019-blue)
+![frontend](https://img.shields.io/badge/frontend-React-blue)
 ![backend](https://img.shields.io/badge/backend-Fastify-black)
 ![database](https://img.shields.io/badge/database-MySQL-orange)
 ![api](https://img.shields.io/badge/API-Spotify%20Web%20API-brightgreen)
@@ -27,24 +27,17 @@ Music League is a modern full-stack web application designed for competitive mus
 
 - **Weekly Theme Competitions.** Create custom leagues with scheduled round themes, submission deadlines, and point allocation rules.
 - **Anonymous Voting System.** Distribute point budgets across submitted tracks with comments to keep competition rounds fair and unbiased.
-- **Automated Spotify Integration.** Searches Spotify's catalog, validates track URIs, manages OAuth token refresh, and automatically generates official round playlists.
-- **Live Leaderboards & Standings.** Real-time season standings, round score breakdowns, and historical submission analytics.
-
-## Unique Feature: Automated Spotify OAuth Sync & Voting Engine
-
-Managing round playlists and scoring by hand is completely eliminated:
-
-- **Instant Playlist Generation:** Upon submission deadline, the backend automatically resolves Spotify track URIs, authenticates via OAuth 2.0 refresh tokens, and generates an official Spotify playlist for the league round.
-- **Strict Point Allocation Engine:** Fastify endpoints evaluate anonymous voting rules, enforcing point budget constraints and calculating live cumulative season leaderboards in MySQL.
+- **Automated Spotify Integration.** Searches Spotify's catalog, validates tracks, handles authentication, and automatically generates official round playlists.
+- **Live Leaderboards & Standings.** Real-time season standings, round score breakdowns, and submission analytics.
 
 ## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| **Frontend** | React 19, Vite, React Router v7, Axios, Day.js |
-| **Backend** | Fastify, Node.js, `@fastify/cors`, `@fastify/mysql` |
+| **Frontend** | React, Vite, React Router, Axios |
+| **Backend** | Fastify, Node.js |
 | **Database** | MySQL |
-| **External APIs** | Spotify Web API (OAuth 2.0, Catalog Search, Playlist Management) |
+| **External APIs** | Spotify Web API |
 
 ## Why the source is private
 
